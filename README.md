@@ -68,7 +68,7 @@ pipenv shell
 7. Run the application:
 
 ```bash
-python main.py
+pipenv run python3 auto-newsletter/main.py
 ```
 
 ## Usage
@@ -106,6 +106,7 @@ Your database should include properties
 - add advanced filtering option for notion DBs
 - improve scraping of reddit and twitter
 - speed up the program
+- add tests
 
 ## Contributing
 
