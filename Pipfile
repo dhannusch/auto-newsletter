@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cpu/"
+verify_ssl = true
+name = "downloadpytorch"
+
+[packages]
+requests = "*"
+guidance = "*"
+transformers = "*"
+colorama = "*"
+trafilatura = "*"
+urllib3 = "==1.26.6"
+torch = {version = "==1.13.1", index = "downloadpytorch"}
+simple-term-menu = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
