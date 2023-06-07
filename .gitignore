@@ -3,3 +3,4 @@ debug
 newsletters
 .vscode
 .auto-newsletter
+.ruff_cache
