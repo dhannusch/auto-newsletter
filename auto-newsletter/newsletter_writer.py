@@ -1,8 +1,7 @@
 from datetime import datetime
 from content import Content
 import guidance
-from debug import debug, debug_guidance
-from loadingbar import LoadingBar
+from debug import debug_guidance
 from spinner import Spinner
 import json
 from colorama import Fore, Style

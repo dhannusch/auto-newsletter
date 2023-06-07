@@ -17,6 +17,7 @@ trafilatura = "*"
 urllib3 = "==1.26.6"
 torch = {version = "==1.13.1", index = "downloadpytorch"}
 simple-term-menu = "*"
+ruff = "*"
 
 [dev-packages]
 
