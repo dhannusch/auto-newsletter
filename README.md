@@ -20,6 +20,7 @@ The auto-newsletter is a powerful tool that automates the creation of engaging n
 
 - Notion API Key
 - OPENAI API Key
+- (pipenv)[https://pipenv.pypa.io/en/latest/installation/]
 - Dependencies (see Pipfile)
 
 ## Installation
